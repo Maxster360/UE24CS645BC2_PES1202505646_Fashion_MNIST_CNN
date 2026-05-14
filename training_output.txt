@@ -1,0 +1,85 @@
+Fashion MNIST CNN - Built from Scratch using NumPy
+============================================================
+
+Loading dataset...
+  Training set: 60000 images
+  Test set: 10000 images
+  Image size: 28x28
+  Classes: 10
+
+============================================================
+Training CNN on Fashion MNIST
+Epochs: 3, Learning Rate: 0.005, Samples/Epoch: 1000
+============================================================
+
+  Epoch 1/3 | Step 100/1000 | Loss: 2.1796 | Accuracy: 21.0%
+  Epoch 1/3 | Step 200/1000 | Loss: 2.1005 | Accuracy: 23.5%
+  Epoch 1/3 | Step 300/1000 | Loss: 1.9215 | Accuracy: 33.0%
+  Epoch 1/3 | Step 400/1000 | Loss: 1.8116 | Accuracy: 36.5%
+  Epoch 1/3 | Step 500/1000 | Loss: 1.6937 | Accuracy: 40.0%
+  Epoch 1/3 | Step 600/1000 | Loss: 1.6218 | Accuracy: 42.3%
+  Epoch 1/3 | Step 700/1000 | Loss: 1.5115 | Accuracy: 46.6%
+  Epoch 1/3 | Step 800/1000 | Loss: 1.4280 | Accuracy: 49.9%
+  Epoch 1/3 | Step 900/1000 | Loss: 1.3576 | Accuracy: 52.7%
+  Epoch 1/3 | Step 1000/1000 | Loss: 1.2973 | Accuracy: 54.9%
+
+  Epoch 1 Complete - Avg Loss: 1.2973, Accuracy: 54.9%
+
+  Epoch 2/3 | Step 100/1000 | Loss: 0.9231 | Accuracy: 67.0%
+  Epoch 2/3 | Step 200/1000 | Loss: 0.8049 | Accuracy: 70.0%
+  Epoch 2/3 | Step 300/1000 | Loss: 0.8184 | Accuracy: 69.3%
+  Epoch 2/3 | Step 400/1000 | Loss: 0.8185 | Accuracy: 69.0%
+  Epoch 2/3 | Step 500/1000 | Loss: 0.8102 | Accuracy: 69.0%
+  Epoch 2/3 | Step 600/1000 | Loss: 0.8188 | Accuracy: 69.3%
+  Epoch 2/3 | Step 700/1000 | Loss: 0.8054 | Accuracy: 69.4%
+  Epoch 2/3 | Step 800/1000 | Loss: 0.8004 | Accuracy: 69.1%
+  Epoch 2/3 | Step 900/1000 | Loss: 0.8127 | Accuracy: 68.8%
+  Epoch 2/3 | Step 1000/1000 | Loss: 0.8069 | Accuracy: 68.5%
+
+  Epoch 2 Complete - Avg Loss: 0.8069, Accuracy: 68.5%
+
+  Epoch 3/3 | Step 100/1000 | Loss: 0.8955 | Accuracy: 65.0%
+  Epoch 3/3 | Step 200/1000 | Loss: 0.7771 | Accuracy: 69.0%
+  Epoch 3/3 | Step 300/1000 | Loss: 0.7367 | Accuracy: 69.3%
+  Epoch 3/3 | Step 400/1000 | Loss: 0.7073 | Accuracy: 70.8%
+  Epoch 3/3 | Step 500/1000 | Loss: 0.7513 | Accuracy: 69.6%
+  Epoch 3/3 | Step 600/1000 | Loss: 0.7643 | Accuracy: 69.5%
+  Epoch 3/3 | Step 700/1000 | Loss: 0.7467 | Accuracy: 70.6%
+  Epoch 3/3 | Step 800/1000 | Loss: 0.7168 | Accuracy: 71.8%
+  Epoch 3/3 | Step 900/1000 | Loss: 0.7249 | Accuracy: 71.8%
+  Epoch 3/3 | Step 1000/1000 | Loss: 0.7147 | Accuracy: 72.1%
+
+  Epoch 3 Complete - Avg Loss: 0.7147, Accuracy: 72.1%
+
+
+============================================================
+Evaluating CNN on 500 test samples
+============================================================
+
+  Evaluated 100/500 samples...
+  Evaluated 200/500 samples...
+  Evaluated 300/500 samples...
+  Evaluated 400/500 samples...
+  Evaluated 500/500 samples...
+
+============================================================
+RESULTS
+============================================================
+
+  Overall Accuracy: 77.20% (386/500)
+
+  Per-class Accuracy:
+  ----------------------------------------
+    T-shirt/top    :  94.9% (56/59)
+    Trouser        :  98.0% (48/49)
+    Pullover       :  37.0% (17/46)
+    Dress          :  77.3% (34/44)
+    Coat           :  65.2% (30/46)
+    Sandal         :  87.0% (47/54)
+    Shirt          :  33.3% (16/48)
+    Sneaker        :  84.1% (37/44)
+    Bag            :  86.9% (53/61)
+    Ankle boot     :  98.0% (48/49)
+
+============================================================
+

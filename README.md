@@ -1,7 +1,7 @@
 # Fashion MNIST CNN from Scratch
 
 **Course:** UE24CS645BC2 - Deep Learning: Theory and Practice  
-**USN:** PES1202505646  
+**USN:** PES1PG25CS108
 **Assignment:** DLTP Assignment 1
 
 ## About
